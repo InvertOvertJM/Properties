@@ -1,0 +1,65 @@
+body{
+    background-color: seashell;
+}
+
+div{
+    border: 3px black solid;
+    margin:3px;
+}
+
+.floatRight{
+    float: right;
+}
+
+.floatLeft{
+    float: left;
+}
+
+.floatNone{
+    float: none;
+}
+
+.hidden{
+    width: 100px;
+    height: 300px;
+    overflow:hidden;
+}
+
+.scroll{
+    width:100px;
+    height: 300px;
+    overflow:scroll;
+}
+
+.visible{
+    width:200px;
+    height: 400px;
+    overflow: visible;
+}
+
+.resizeBoth{
+    width:30px;
+    height: 400px;
+    overflow: auto;
+    resize:both;
+}
+
+.resizeH{
+    width:150px;
+    height: 400px;
+    overflow: auto;
+    resize:horizontal;
+}
+
+.resizeV{
+    width:100px;
+    height: 400px;
+    overflow: auto;
+    resize:vertical;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+}
+
